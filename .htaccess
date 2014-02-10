@@ -1,0 +1,3 @@
+RewriteCond %{HTTP_HOST} ^heartyhandshake.com [NC]
+RewriteRule ^(.*)$ http://www.heartyhandshake.com/$1 [R=301,L]
+DirectoryIndex home.htm index3.php index.htm index.html default.htm
